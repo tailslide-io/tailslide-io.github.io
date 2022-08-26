@@ -1,0 +1,792 @@
+<!DOCTYPE html><!--  Last Published: Fri Aug 26 2022 15:29:51 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="630554c6691ab923537ddaa4" data-wf-site="62f68e72843db6420ca4bfdf">
+<head>
+  <meta charset="utf-8">
+  <title>Tailslide</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/tailslide.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic","Poppins:regular,500,600,700,800","Source Code Pro:regular"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/trent-cooper/cdn-css-expose@832357f8eb38cb00d95cce715e948241fec84030/tailslide-theme.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/plugins/line-numbers/prism-line-numbers.min.css">
+</head>
+<body data-scroll-time="0">
+  <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease-in" data-easing2="ease-out" data-doc-height="1" role="banner" class="nav w-nav">
+    <div class="nav-container w-container">
+      <a href="#landing" class="logo w-nav-brand"><img src="images/logo_white_left.svg" width="180" data-w-id="d33e92b0-a0cc-9a61-8693-e9d36fee16d5" alt=""></a>
+      <nav role="navigation" class="nav-menu w-nav-menu">
+        <a href="#about" class="nav-link w-nav-link">About</a>
+        <a href="#case-study" class="nav-link w-nav-link">Case Study</a>
+        <a href="#presentation" class="nav-link w-nav-link">Presentation</a>
+        <a href="#team" class="nav-link w-nav-link">Team</a>
+        <a href="/documentation" class="nav-link w-nav-link">Docs</a>
+        <a href="https://github.com/tailslide-io#" target="_blank" class="w-inline-block"><img loading="lazy" width="35" src="images/github_white.svg" alt="" class="image-4"></a>
+      </nav>
+      <div class="menu-button w-nav-button">
+        <div class="icon w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <div id="landing" class="landing-card"><img src="images/arrow_down.svg" loading="lazy" style="-webkit-transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" data-w-id="a124c267-8c76-5e56-0069-e18fe6f053e7" alt="" class="down-arrow">
+    <div class="hero-wrap">
+      <div class="hero-right"><img src="images/graphic_white.svg" width="800" alt="Tailslide Logo" loading="eager" class="image-2"></div>
+      <div class="hero-left"><img src="images/name_white.svg" loading="eager" width="372" alt="" class="image">
+        <h2 class="heading-6"><strong class="bold-text">An open-source </strong><span class="text-span"><strong>feature flag framework</strong></span><strong class="bold-text"> for easier code deployment with automated </strong><span class="text-span-2"><strong>failure protection</strong></span><strong class="bold-text">.</strong></h2>
+        <a href="#case-study" class="button w-button">Read the Case Study</a>
+      </div>
+    </div>
+  </div>
+  <div id="about" data-w-id="52df9d9f-fef8-7b24-3a9c-31facb64d911" class="flag-card">
+    <div class="wrap-2 a">
+      <div class="left-1">
+        <h2 class="card-header">Feature Flag Management</h2>
+        <p class="paragraph-7">A feature flag system purpose-built for new feature deployment with granular control over rollout and developer whitelists.</p>
+      </div>
+      <div class="right-1"><img src="images/flag_dashboard2.png" sizes="(max-width: 767px) 90vw, (max-width: 991px) 55vw, 550px" srcset="images/flag_dashboard2-p-500.png 500w, images/flag_dashboard2-p-800.png 800w, images/flag_dashboard2.png 1039w" loading="lazy" width="724" alt="" class="screenshot"></div>
+    </div>
+  </div>
+  <div data-w-id="c64219d1-5c9c-bbde-2f99-11ff9b45fafd" class="circuit-card">
+    <div class="wrap-2 a">
+      <div class="right-1"><img src="images/graph_dashboard2.png" loading="lazy" srcset="images/graph_dashboard2-p-500.png 500w, images/graph_dashboard2-p-800.png 800w, images/graph_dashboard2.png 1039w" sizes="(max-width: 767px) 90vw, (max-width: 991px) 55vw, 550px" alt="" class="screenshot"></div>
+      <div class="left-1">
+        <h2 class="card-header">Automated Failure Protection</h2>
+        <p class="paragraph-2">Give developers peace of mind and reduce MTTR with a built-in Circuit Breaker and fully automated recovery.</p>
+      </div>
+    </div>
+  </div>
+  <div data-w-id="42dbcbdb-a4e8-853f-b58e-3918f86cdebd" class="sdk-card">
+    <div class="wrap-2 a">
+      <div class="left-1">
+        <h2 class="card-header-copy">Easy Integration</h2>
+        <p class="paragraph-8">SDK available in popular back-end languages for simple configuration within your app. Flag Evaluation and Circuit Observation are a  method call away.</p>
+      </div>
+      <div class="right-1">
+        <div class="div-block">
+          <div class="div-block-2">
+            <div id="sdk-header" class="text-block">tailslideSDK.js</div>
+          </div>
+          <div class="rich-text-block w-richtext">
+            <div class="w-embed">
+              <pre class="line-numbers"><code class="language-js" id="sdk-code">const FlagManager = require('./lib/flagManager');
+const config = {
+  server: 'nats://127.0.0.1:4222',
+  appId: 1,
+  userContext: '375d39e6-9c3f-4f58-80bd-e5960b710295',
+  sdkKey: 'myToken',
+};
+const manager = new FlagManager(config);
+await manager.initializeFlags();
+const flagToggler = manager.newToggler({ flagName })
+if (flagToggler.isFlagActive()) {
+  await newFeature();
+} else {
+  await existingFeature();
+}
+</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="div-block-3"><img src="images/Asset-1192x.png" loading="lazy" id="sdk-js" alt="" class="sdk-icon"><img src="images/Asset-1202x.png" loading="lazy" id="sdk-ruby" alt="" class="sdk-icon"><img src="images/Asset-1212x.png" loading="lazy" id="sdk-python" alt="" class="sdk-icon"><img src="images/Asset-1222x.png" loading="lazy" id="sdk-go" alt="" class="sdk-icon"></div>
+      </div>
+    </div>
+  </div>
+  <div data-w-id="e6b297b3-47a4-eaa0-a422-626df36637fa" class="deployment-card">
+    <div class="wrap-2 a">
+      <div class="right-1"><img src="images/tailslide_terminal-copy-3.svg" loading="lazy" width="550" alt="" class="image-12"></div>
+      <div class="left-1">
+        <h2 class="card-header">Simple Deployment</h2>
+        <p class="paragraph-7">Deploy Tailslide on any cloud provider or your own infrastructure with a simple docker-compose command.</p>
+      </div>
+    </div>
+  </div>
+  <section id="case-study" class="case-study wf-section">
+    <div class="container">
+      <div class="gallery-wrapper">
+        <div id="w-node-_932a788b-82c3-a588-cd76-f478efbb41e2-537ddaa4" class="gallery-sticky">
+          <div class="title-small">Table of Contents</div>
+          <div id="toc" class="toc"></div>
+        </div>
+        <div id="w-node-_932a788b-82c3-a588-cd76-f478efbb41e6-537ddaa4" class="gallery-grid">
+          <div id="content" class="casestudy w-node-_932a788b-82c3-a588-cd76-f478efbb41e7-537ddaa4 w-richtext">
+            <h1>Case Study</h1>
+            <h2>1. Introduction</h2>
+            <h3>1.1 Tailslide</h3>
+            <figure style="max-width:199px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/logo_color.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 1.1 Tailslide Logo</figcaption>
+            </figure>
+            <p>Tailslide is an open-source, lightweight, self-hosted feature flag management solution designed for organizations with a microservices architecture to easily and safely deploy new backend features with built-in circuit-breaking.  Tailslide monitors the performance of feature flags and leverages a customizable circuit-breaking pattern to toggle off problematic features and direct users to a pre-defined fallback service or feature. If circuits trip, indicating that features are not working as intended - developers are immediately notified via a Slack notification, so they can respond appropriately. Tailslide speeds up the deployment cycle without sacrificing reliability.</p>
+            <p>Using Tailslide, developers can perform &quot;dark launches&quot; - allowing for experimentation of new features in a live production environment, where only internal test accounts or beta users are served the new feature. Tailslide also allows for the safe and gradual rollout of individual features to a subset of the user base, with the ability to easily ramp up, ramp down or shut off all traffic to a specified feature.</p>
+            <figure style="max-width:450px" class="w-richtext-align-center w-richtext-figure-type-image">
+              <div><img src="images/cs1.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 1.2 Tailslide architecture, user interface dashboard, and supported server SDKs</figcaption>
+            </figure>
+            <h3>1.2 Deployment and Feature Release</h3>
+            <figure style="max-width:490px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs2.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 1.3 Software release cycle</figcaption>
+            </figure>
+            <p>To first understand the “why” behind feature flags, it’s important to first understand the context surrounding feature flags. Let’s first describe deployment and feature release, before discussing the traditional software release cycle and why software teams should strive toward more frequent deployments.</p>
+            <p><strong>Deployment</strong> is the process of distributing code from a development or staging environment into a production environment.</p>
+            <p><strong>Feature Release</strong> refers to making features in deployed code available to users.</p>
+            <p>As Tailslide’s focus is on server-side feature flags, in this write up we will use <strong>feature</strong> to refer to any new functionality or service being developed on the backend of a web application.</p>
+            <p><em>x2 mp4 loops side-by-side here</em></p>
+            <h3>1.3 Traditional Software Release Cycle</h3>
+            <figure style="max-width:277px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs3.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 1.4 Once code is deployed, all users receive the new features.</figcaption>
+            </figure>
+            <p>In a traditional software release cycle, feature release occurs simultaneously with deployment. Once code is deployed, all users will receive the features within that feature release. Although new features may appear to work in a staging environment, unexpected issues often arise in production - such as when a server fails to handle higher-than-expected user traffic.</p>
+            <p>The downside of releasing features alongside deployment is that when features break, developers must scramble to deploy hotfixes on top of the problematic deployment or roll back the deployment altogether. Even if there is only one offending feature, the entire deployment could have to be rolled back.</p>
+            <p>This leads to unpredictable repair wait times or extended service downtime, negatively impacting both the development team and the end user. The tight coupling between deployment and feature release means that developers have little control over the active state of their new features after deployment.</p>
+            <h3>1.4 Benefits of Frequent Deployment</h3>
+            <p>Delivering new features in a timely and reliable manner is critical for the success of a software company. This often requires efficient software development teams capable of frequently deploying new features while guaranteeing service uptime for end users (<a href="https://www.leanix.net/en/wiki/vsm/dora-metrics">DORA metrics source</a>). One way to expedite the deployment process is by allowing teams to safely deploy into production on demand, allowing them to experiment and see how their code behaves in a production environment.</p>
+            <p>In order to perform this safely, two criteria must be satisfied:</p>
+            <ul role="list">
+              <li>First, the impact of deployments on end users should be controllable, so that only target users receive the new features without affecting the experience of regular users.</li>
+              <li>Second, the deployment process should have a low mean time to recovery (MTTR) so that service outages from failed deployment do not impact business operations.</li>
+            </ul>
+            <h4>1.4.1 Deployment Flexibility</h4>
+            <p>To meet these criteria, it is important to separate deployment from feature release. Feature flags are one way to separate deployment from feature release. Feature flags work by abstracting feature releases as conditionals in the application code. This means developers introduce feature release logic to target which users receive the new features and control the impact radius of their new features. This abstraction allows developers to instantly shut off all traffic to problematic new features without needing additional hotfixes or deployment rollbacks.</p>
+            <h4>1.4.2 Deployment Reliability</h4>
+            <p>Deployment reliability is just as important as frequency. A tool that implements the well-established circuit breaking pattern can automatically turn new features off when problems arise, thus lowering MTTR. This automatic fail-safe helps to reduce the burden of monitoring the performance of new features on development teams, allowing them to safely release code into production without worrying about service interruptions. They can rest assured that fallbacks are in place when new features fail.</p>
+            <h4>1.4.3 Deployment Feedback</h4>
+            <p>Real-world feedback is especially informative in a microservices architecture, where testing the interactions among microservices in staging environments can be challenging and time-consuming. Allowing new features to fail early but safely in the production environment enables developers to observe how their systems behave in unexpected production scenarios that simulated tests cannot anticipate, such as unexpectedly high traffic, infrastructure problems, or unpredictable user behaviour. Testing in production is an invaluable resource for developers to learn from, in order to iterate and improve on new features quickly.</p>
+            <h2>2. Hypothetical</h2>
+            <p>To illustrate how feature flags can improve deployment, let’s describe the challenges that a hypothetical company, Healthbar, faced before discovering feature flags as a deployment strategy.</p>
+            <figure style="max-width:375px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs4.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 2.1 Healthbar Teams</figcaption>
+            </figure>
+            <p>Healthbar is a startup that provides platform-as-a-service (PaaS) related to information technology for hospitals, medical and healthcare companies. Healthbar uses a microservices architecture. Due to the severe consequences of service downtime for its customers, Healthbar takes precautions to avoid widespread service blackouts. Healthbar wants to ensure that its customers are being serviced at all times. Healthbar’s processes include deploying code in automated test environments and a robust code review approval process, involving multiple rounds of approval amongst developers, testers, and managers. Although these safeguards have been effective in minimizing service blackouts, they have slowed deployment, and teams often spend over a month between deployments.</p>
+            <p>Healthbar’s management wants to better serve customer needs as more companies enter the space. They encourage engineering teams to release new features faster, to retain and grow existing market share. Currently, using the traditional deployment strategy greatly limits the teams’ progress.</p>
+            <h3>2.1 Canary Deployment</h3>
+            <p>Recently, Healthbar discovered Canary Deployment, a deployment strategy that releases an application or service incrementally to a subset of users, before rolling out the change to all users if no issues arise. With canary deployments, two versions of an application are deployed onto two separate production environments: the latest production release, and the canary version (version with new features). A load balancer is used to direct some traffic to the canary, with the remaining traffic going to the latest release. If no issues occur, the traffic directed to the canary increases, until all users are routed to the canary. If problems arise with the canary - the rollback strategy is simply to reroute all users back to the current version, until problems with the canary have been fixed. With Canary Deployments, the determination of which version a user is served occurs at the infrastructure layer, via the load balancer.</p>
+            <figure style="max-width:627px" class="w-richtext-align-center w-richtext-figure-type-image">
+              <div><img src="images/cs5.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 2.2 Initially, only a few users receive and test the new features. Gradually, more users are directed toward new features. If errors occur, users are redirected back to the old features.</figcaption>
+            </figure>
+            <h4>2.1.1 Benefits of Canary Deployments</h4>
+            <p>Canary Deployments help Healthbar to increase its deployment frequency and allow them to safely test its new services in production. By controlling the traffic to a canary to only a small subset of users with a gradual rollout, Healthbar reduces the risk of a problematic deployment leading to a widespread service blackout that affects all users. Healthbar loosens some of its stringent approval processes, resulting in more frequent deployments. Frequent deployment means smaller changes in each deployment, fewer things that may break, and fewer checklists for teams to cross off or monitor. Management is happy to see an increase in productivity. With the new features becoming more mature, it wants the teams to integrate those new features into core business offerings.</p>
+            <h4>2.1.2 Shortcomings of Canary Deployment</h4>
+            <p>Canary Deployments still suffer from a tight coupling of deployment and feature release, a similar limitation faced in a traditional software release. Developers lack the ability to control the state of individual new features after deployment. If the canary consists of multiple new features, but only one non-essential feature is problematic, there is no way to switch off traffic routed towards only that problematic feature. Instead, they must reroute all users from the canary back to the existing version.</p>
+            <figure style="max-width:450px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs6.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 2.3 Each combination of features for feature integration requires additional deployments and infrastructures.</figcaption>
+            </figure>
+            <p>Another shortfall of canary deployments arises in feature integration. As the number of features involved in integration tasks increases, the number of canary deployments also grows. This is because experimenting with different combinations of features, requires multiple deployments and additional infrastructures for hosting those deployments, increasing both complexity and costs of deployment.</p>
+            <p>For instance, a potential solution may involve any combination of Features A, B, and C, all of which would require their own separate canary deployment for testing. Ultimately, due to the nature of microservices architectures, testing the integration of new features in production is the only way to gain assurance that features are functioning correctly under real-world conditions, such as high traffic load, infrastructure problems, and unpredictable user behaviour.</p>
+            <p>With Healthbar’s limited resources, the developers need another deployment strategy that offers ease of feature integration in a single deployment, the granular control to selectively toggle individual features on or off without entire version rollback, and the ability to safely and reliably test in production with automatic fail-safes.</p>
+            <h3>2.2 Feature Flags</h3>
+            <h4>2.2.1 Benefits of Feature Flags</h4>
+            <figure style="max-width:" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs20.png" loading="lazy" alt=""></div>
+            </figure>
+            <p>With further research, Healthbar teams stumble upon Feature Flags. Feature flags decouple feature release from infrastructure. At its simplest, feature flags embed conditional logic into applications which allow developers to dynamically control the on or off state of individual features at runtime. Fundamentally, feature flags allow developers to decouple deployment from feature release. Deployment is now only about moving code into production, and feature release solely depends on runtime logic. Since feature flags evaluate feature release at the application layer, developers are free to test different combinations of their features in their feature integration tasks with just a single deployment.</p>
+            <p>With feature flags, the developers only need to make a single deployment that covers both the new and current features on the same infrastructure. The determination of which version a user is served occurs at the application layer, based on the runtime logic. In this way, deployment is tied to the underlying infrastructure, and feature release is manipulated by server application logic.</p>
+            <h4>2.2.2 Additional Feature Flags Capabilities</h4>
+            <p>Developers at Healthbar identify additional elements they are seeking in a feature flag solution in order to safely and reliably test in production, as their features move through varying levels of maturity.</p>
+            <ul role="list">
+              <li><strong>Targeted Testing</strong> - In the early stages, the developers want the ability to expose specific internal test users with the new features, without affecting regular users. In addition, developers want granular control over which specific features to toggle on or off in order to test different combinations of features. While a canary deployment can target internal testers, the full feature set must either be on or off, which limits developers’ ability to test new features.</li>
+              <li><strong>Gradual Rollout</strong> - From their experience with canary deployments, the developers now also want the power to safely and gradually roll out an individual feature to a subset of users, and slowly expose it to the entire user base if no issues arise. This is similar to the rollout strategy for a canary deployment, except the rollout control is finer-grained, and occurs at the individual feature level.</li>
+              <li><strong>Automated Failsafe</strong> - once ready for release to the entire user-base, Healthbar’s priority remains focussed on the reduction of widespread service blackout. If calls to a new feature or service fail unexpectedly - perhaps slower response times due to higher-than-usual traffic - Healthbar would like an automated fault-tolerant solution, that will direct users to a pre-defined fallback service or feature. The automated nature of this failsafe process reduces the burden of monitoring the performance of new features on development teams, allowing them to safely release code into production without worrying about service interruptions. One stability pattern that provides this automated failover is the Circuit Breaker pattern.</li>
+            </ul>
+            <h3>2.3 Circuit Breaker</h3>
+            <p>Healthbar is concerned with resiliency when deploying new features and quick recovery when services do fail, as calls to a deployed feature over a network introduce an additional point of failure.  Whether the feature itself fails or the connection between services degrades, this can lead to a poor end-user experience or further outages within a distributed application.</p>
+            <figure style="max-width:350px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs21.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 2.5 The Circuit Breaker pattern defines 3 Circuit States: Closed, Open and Half-Open, corresponding to full traffic, no traffic, and reduced traffic being directed to a service.  The Half-Open state is an automated recovery process.</figcaption>
+            </figure>
+            <p>Implementation of a stability pattern can help Healthbar protect against these failures and safely recover. Stability patterns are used to promote resiliency in distributed systems [1] - the Circuit Breaker is a stability pattern popularized by Michael Nygard in his book ‘Release it,’ [2] and it is built to protect against failures as well as recover from them.</p>
+            <p>A Circuit Breaker in software is modeled after an electrical circuit breaker and is a component responsible for monitoring the flow of information from one service to another - in this case, keeping track of the failure rate of requests between two services or within a service.  A Circuit Breaker controls the flow of information by changing the state of the circuit, cutting off all traffic to a service if failure rate reaches a specified threshold, and then gradually self-testing the connection to a failed service in order to re-close the circuit, allowing traffic to resume to the now-functioning service if a suitable rate of requests is successful.</p>
+            <h4>2.4 Feature Flag Landscape</h4>
+            <p>Healthbar developers are excited to find that there are existing feature flag solutions that are designed as feature release toggles that meet their deployment needs. Some even come with a full set of observability, monitoring, and safety features. Because Healthbar is a small company with limited resources, the teams have to justify to management which feature flag solution to pursue.</p>
+            <figure style="max-width:400px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/Asset-1152x.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 2.6 Feature flag competitive landscape, from enterprise solutions such as LaunchDarkly to feature-rich open source frameworks such as Unleash, and automated failure protection oriented Tailslide.</figcaption>
+            </figure>
+            <p>For enterprise solutions, LaunchDarkly is the most prominent framework. It is easy to set up and has a feature-rich platform, including integration with observability tools and circuit-breaking capabilities. However, it comes with high costs, and as the solution requires the usage of their platform, it could require storing sensitive patient information on the cloud. Furthermore, the solution is not open source, meaning developers may not be able to configure the software to their exact needs.</p>
+            <p>Open-source frameworks, such as Unleash, typically offer either a self-hosted option or the use of their cloud platform. Although easy to set up, they do not offer the circuit-breaking functionalities Healthbar is seeking.</p>
+            <p>Finally, they found Tailslide, an open-source feature flag solution that is fully self-hosted and easy to set up. It is simple to use, and only comes with the essential feature flag elements they are looking for, such as dark launches and gradual rollouts. Most importantly, Tailslide includes an automated fault tolerant solution with built-in circuit-breaking. Healthbar decides to move forward with Tailslide as their feature flag management solution.</p>
+            <h2>3. Tailslide Architecture</h2>
+            <h3>3.1 Tailslide Architecture Overview</h3>
+            <p>Tailslide’s architecture was built to facilitate two major uses: the feature flag ruleset data transmission and automated circuit breaking.</p>
+            <p><em>Note that services in orange are user-provided, and services in blue are part of Tailslide’s architecture.</em></p>
+            <figure class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs22.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 3.2 Services involved in Feature Flag solution.</figcaption>
+            </figure>
+            <p>The feature flag component is focused on managing CRUD operations on a per-flag basis, and propagating the feature flag ruleset data to all user microservices with software development kits (SDKs) embedded within them. By using conditional branching logic within the user microservice, the real-time transmission of feature flag ruleset data allows the developer to dynamically control the flow of application logic.</p>
+            <p>The circuit breaking component can be broken down into three major steps, which include: the emission and storage of success/failure data, the evaluation of error rate against user-configured thresholds, and the circuit state change propagation.</p>
+            <p>Broadly, there are four key pieces of Tailslide’s architecture. These include:</p>
+            <figure class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs23.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 3.3 Services involves in Circuit Breaking. (Change this to more circuit-breaking focused diagram)</figcaption>
+            </figure>
+            <ol role="list">
+              <li><strong>Tower</strong> - a full-stack application that handles the CRUD functionality related to feature flag management</li>
+              <li><strong>NATS JetStream</strong> - connective technology, enabling asynchronous communication</li>
+              <li><strong>Tailslide SDKs</strong> - provides user microservices with flag state to ensure appropriate logic evaluation at runtime and emission of circuit-breaking data</li>
+              <li><strong>Aerobat</strong> - a lightweight Node application responsible for all circuit-breaking logic</li>
+            </ol>
+            <p>We will now provide an overview of the role of each component.</p>
+            <h4>3.1.1 Tower</h4>
+            <figure style="max-width:150px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs24.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 3.4 Tower</figcaption>
+            </figure>
+            <p>Tower is a full-stack application that handles the functionality related to feature flag management.</p>
+            <p>It consists of a React user interface that allows a user to perform basic CRUD functionality, such as creating an app and flag, making edits to flags, toggling a flag on and off, and viewing logs related to those flags. Each flag has a title, an optional description, an assigned rollout percentage, a field to list white-listed users, a toggle to turn the flag on/off with a single click and a variety of circuit-breaking configuration settings.</p>
+            <p>Circuit breaking settings include setting the Error Threshold, the Initial Recovery Percentage, the Recovery Increment Percentage, the Recovery Delay, the Recovery Rate, and setting the Recovery Profile as either Linear or Exponential. By default, circuit breaking is disabled, but can be enabled with a toggle switch.</p>
+            <p>Within the frontend, a user can also generate SDK Keys for use in Tailslide, view event logs of a flag’s history, and view live-circuit breaking graphs and visualizations.</p>
+            <p>Feature flag data, and any corresponding circuit breaking configuration information are stored in a PostgreSQL database.</p>
+            <p>Tower’s backend is written in Node.js and Express. Tower is configured to connect to the database, and upon any change to the feature flag data, Tower updates the database and publishes the full set of feature flag ruleset data to NATS JetStream. API endpoint documentation for Tower can be found <a href="https://github.com/tailslide-io/tower">here</a>.</p>
+            <p><em>Gif Here ?</em></p>
+            <h4>3.1.2 NATS JetStream</h4>
+            <figure style="max-width:100px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs25.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 3.6 NATS JetStream</figcaption>
+            </figure>
+            <p>NATS JetStream is an open-source message streaming broker. In Tailslide, it functions as a connective technology, enabling fault-tolerant asynchronous communication. The main benefits of NATS JetStream are that it decouples publishers and subscribers, adds fault-tolerant message delivery, allows for re-sending of existing messages on the stream, and allows for authentication of publisher and subscriber applications via an SDK token. For further analysis of this tool and other options, we considered, please see <strong>Section 6.1</strong>.</p>
+            <p>NATS JetStream facilitates two types of communication in Tailslide’s architecture:</p>
+            <ol role="list">
+              <li><strong>Pub-Sub Messaging Pattern of Feature Flag Ruleset Data</strong> from Tower to User Microservices and Aerobat</li>
+              <li><strong>Circuit State Change Propagation</strong> from Aerobat to Tower (see <strong>Section 4.2.5</strong>)</li>
+            </ol>
+            <figure class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs26.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 3.7 Pub-Sub Messaging Pattern of <strong>Flag Ruleset Data</strong> from Tower to User Microservices and Aerobat</figcaption>
+            </figure>
+            <p><strong>Pub-Sub Messaging Pattern -</strong> NATS JetStream supports pub-sub messaging, which is an asynchronous service-to-service communication pattern [?]. In a pub-sub messaging pattern, any message published by a publisher to a subject, is immediately received in real-time by all of the subscribers of the topic. &lt;Need to add in some fact about the number of subscribers NATS can support&gt;</p>
+            <p>For Tailslide’s architecture, any changes to the feature flag ruleset data are published by Tower onto the flags_ruleset subject on NATS JetStream. The SDKs embedded within the user microservices and  Aerobat, are configured to be subscribed to any messages to the flags_ruleset subject, ensuring that the feature flag ruleset data is fanned out and pushed to all subscribers.</p>
+            <ul role="list">
+              <li><strong>Tailslide SDKs -</strong> All Tailslide SDKs require the latest version of the feature flag ruleset data. They require the data to ensure that the logic within user microservices is evaluated appropriately, based on the state (true/false) of the flags at runtime.</li>
+              <li><strong>Aerobat -</strong> Aerobat requires the latest version of the feature flag ruleset data, as the data also contains each flag’s circuit-breaking settings, including essential information such as the Error Threshold for each circuit. Current rules are stored as an internal state and are updated when a new ruleset is received. Based on this data, Aerobat knows which flags have active circuits that need to be queried and assessed against the configured Error Threshold.</li>
+            </ul>
+            <p><strong>Horizontal Scaling</strong> - Tailslide was built to handle horizontally scaled instances of user microservices, and it does so via both message replay and the pub-sub pattern. Message Replay allows a message broker to resend an existing message on the stream, to a subscriber.</p>
+            <p>When a new user microservice comes online, the subscriber SDKs are configured to poll the NATS JetStream flag_ruleset subject for the last sent message, which represents the latest feature flag ruleset data. Any additional updates to the feature flag ruleset data are received by the SDKs via the Pub-Sub messaging pattern.</p>
+            <h4>3.2.3 Tailslide SDK</h4>
+            <figure style="max-width:125px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs27.png" loading="lazy" alt=""></div>
+            </figure>
+            <p>Tailslide SDKs are libraries which can be embedded into the code of backend user microservice applications, which allow for the access of feature flag ruleset data and the emission of success/failure data for circuit-breaking capabilities. Please see <strong>Section 4.2.2</strong> for details on the success/failure data emission.</p>
+            <p>Tailslide provides server-side SDKs written in four languages, including JavaScript, Ruby, Python, and Golang.</p>
+            <p>To use the SDK, a user will first install the library and then create an instance of a new FlagManager via a configuration object. The configuration object includes fields such as the IP address of the NATS JetStream, the appId, the sdkKey, and a userContext field, which is a value that uniquely identifies an end user (i.e. session cookies identifier or a username). The initializeFlags method must then be called on the FlagManager. This method initiates a subscriber connection to the NATS JetStream flags_ruleset topic and retrieves the latest feature flag ruleset data.</p>
+            <figure class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/Asset-1122x.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 3.9 Sample code snippet of Tailslide SDK</figcaption>
+            </figure>
+            <p>The newToggler method on the FlagManager can then be invoked. This creates a new toggler object required for each feature. These toggler objects contain the feature flag ruleset data for the flag with the corresponding flagName. The toggler objects define methods such as isFlagActive. This method returns a boolean that can be used to determine which branch should be evaluated in conditional logic of user microservice application code, thus effectively allowing for control of feature release at runtime.</p>
+            <p>The isFlagActive function returns a boolean, based on the flag status, white-listed users, and rollout percentage.The userContext information can be updated within the user microservice application code by the user. This field is crucial in order to ensure that both white-listed users and percentage rollout fields are evaluated appropriately. The userContext field can be modified with the setUserContext method. The setUserContext method will update each existing instance of the toggler to incorporate the new userContext.</p>
+            <p>Please see <strong>Section 4.1.2</strong> and <strong>Section 4.1.3</strong> for further detail on white-listed users and rollout percentage implementations.</p>
+            <h4>3.2.4 Aerobat</h4>
+            <figure style="max-width:275px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs28.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 3.0.1 Aerobat</figcaption>
+            </figure>
+            <p>Aerobat is a lightweight Node application and the central point of Tailslide’s Circuit Breaking capabilities, responsible for all Circuit Breaking logic.</p>
+            <p>Aerobat is configured to spin up a process for each application with active circuits. Aerobat determines an active circuit based on the feature flag ruleset data, which it receives as it is subscribed to the flags_ruleset subject on NATS JetStream.</p>
+            <p>Aerobat connects directly to Redis and is primarily responsible for querying the cache for each live circuit within an application on a periodic interval to evaluate current error rates against user-configured error thresholds. This allows Aerobat to assess the health of circuits and update circuit states accordingly. Any changes to circuit state result in Aerobat publishing a message onto a specific circuit state change subject on NATS JetStream, to which Tower is subscribed.</p>
+            <h2>4. Technical Deep Dive</h2>
+            <h3>4.1 Feature Flags</h3>
+            <p>Feature Flags enable the decoupling of deployment from feature release, and do so by having feature release occur within the application code at runtime. To use Tailslide, flags are first created in the frontend. Within the Tailslide SDKs, new toggler objects are created which can obtain the flag state for particular flags, as flag state information is transferred in real time from the Tower backend server to the Tailslide SDKs via NATS JetStream. This ensures that at runtime, the appropriate flag state data is used to evaluate the branching logic with the application code. Tailslide also provides additional options to further customize what flag state a user will be presented, including white-listed users and a gradual percentage rollout.</p>
+            <h4>4.1.1 White-Listed Users</h4>
+            <figure class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs29.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 4.1 Code snippet demonstrating logic evaluation of isFlagActive</figcaption>
+            </figure>
+            <p>White-Listed Users can be added to a flag within the frontend UI, and this property can be used to ensure that for these particular users, the flag status will always evaluate to true, if the isActive property on a flag is also set to true. Recall - instantiating toggler objects requires a userContext property which uniquely identifies a user.</p>
+            <p>If a userContext is included within the list of white-listed users of a particular flag, then that specific white-listed user will be shown the new feature. This feature of Tailslide allows developers to easily test their new features in production without affecting the regular user experience.</p>
+            <h4>4.1.2 Gradual Percentage Rollout</h4>
+            <figure style="max-width:375px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs8.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 4.2 isFlagActive logic flow evaluation tree</figcaption>
+            </figure>
+            <p>Tailslide also allows for the gradual rollout of specific features to a subset of the user base. This is done via hashing.</p>
+            <p>Recall that whenever a toggler object is instantiated within the application code of the user microservice, the userContext is also passed in, which represents the unique identifier for a user. That userContext is hashed to generate a number between 1 and 100. If that hashed number turns out to be greater than the rollout percentage, the flag will evaluate as false, and if the hashed number turns out to be less than or equal to the rollout percentage, the flag will evaluate to true.</p>
+            <p>Because effective hashing functions uniformly distribute the data across the entire set of possible hash values, this process ensures that the distribution is in line with the percentage rollout figure set.</p>
+            <p>Note that the gradual rollout validation occurs after the white-listed user check - see the logic flow evaluation tree.</p>
+            <h3>4.2 Circuit Breaking</h3>
+            <h4>4.2.1 Circuit Breaking in Tailslide</h4>
+            <figure style="max-width:425px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs10.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 4.3 The full Tailslide architecture shows the flow of messaging allowing for integration between Feature Flags and Circuit Breaking.</figcaption>
+            </figure>
+            <p>Tailslide has taken a unique approach to implementing the circuit-breaking pattern within its architecture to serve the deployment of features in a microservice architecture as well as integration with a feature flag management system.</p>
+            <p>The circuit breaking architecture integrates with feature flags by observing the health of connections to newly deployed services and automatically cutting off these connections when failure occurs.  These connections are disabled by automatically toggling a flag off, allowing the application to fall back to the pre-existing code or alternative feature, and preventing any wider disruption of service.</p>
+            <p>Connections to services can then be gradually reestablished when an appropriate amount of time has elapsed through an automated recovery process which sends a reduced amount of traffic to the deployed feature.  If recovery is successful, the breaker will be reset, and will return to a fully closed state (the flag will be automatically toggled on).</p>
+            <p>Zooming in on the implementation of Circuit Breaking itself, the flow of information can be broken down into four steps:</p>
+            <ol start="" role="list">
+              <li>Success/Failure Emission</li>
+              <li>Timeseries Data Storage</li>
+              <li>Error Rate and Circuit State Evaluation</li>
+              <li>Circuit State Change Propagation</li>
+            </ol>
+            <h4>4.2.2 Success/Failure Emission</h4>
+            <figure style="max-width:400px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs11.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 4.5 Emission Methods</figcaption>
+            </figure>
+            <p>The first stage of Circuit Breaking is the emission of success and failure data.  This takes place within the user microservices themselves by monitoring the success of calls to a deployed feature using the Tailslide SDK. By instantiating a toggler object, a developer exposes the emitSuccess() and emitFailure() methods for a specific flag.</p>
+            <p>These methods are used to signal a successful or failed operation as related to the deployed feature. As opposed to a traditional circuit breaker function wrapper, these methods are exposed to allow the developer to explicitly call as they see fit, based on their own success/failure conditions. A single success or failure signal is emitted for each invocation.</p>
+            <h4>4.2.3 Timeseries Data Storage</h4>
+            <figure style="max-width:400px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs12.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 4.6 Timeseries Data Storage</figcaption>
+            </figure>
+            <p>Redis Timeseries is a timeseries module built on top of a Redis cache. It is optimized for high throughput and the storage/querying of data with an aspect of time [2]. The Tailslide SDK within each user microservice is configured to connect directly to the cache for writing every time the emit methods are invoked. Each data point written to the cache is stored under a key defined by flagID:success/failure.</p>
+            <p>Along with Flag ID, success/failure status and App ID metadata, each data point receives a timestamp correlating with the time at which the success or failure took place. This is an important aspect of Tailslide’s Circuit Breaking capabilities, and allows queries within a specified time window.  This is the key to evaluating real-time error rates for each circuit and also enables Tailslide to provide graph visualizations of circuit health.</p>
+            <p>Redis Timeseries also defines a time-to-live (TTL) for all data. Tailslide configures its cache with a 1 hour TTL policy, as this is the maximum time data is needed. This data is ephemeral in nature, and clearing out stale data allows Tailslide to minimize memory usage.</p>
+            <h5><strong>Horizontal Scaling</strong></h5>
+            <figure style="max-width:400px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs13.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 4.7 Horizontal Scaling</figcaption>
+            </figure>
+            <p>An important distinction between some pre-existing circuit breaking libraries and Tailslide is that Tailslide is built to handle scaled user microservices and thus evaluates circuits in-aggregate. From an architectural standpoint, this means that all instances of a feature deployed via a feature flag, even if scaled horizontally many times, must be analyzed as a single circuit.</p>
+            <p>To handle this scaling, data for each specific flag is stored under a single key, with no knowledge of which instance of a user microservice wrote the data to the data store. By identifying data only by flag ID, Tailslide can take a holistic approach to evaluate circuit health, and avoids the case in which a circuit for the same feature is in different states across multiple scaled instances. This ensures a consistent application state for the entire user-base.</p>
+            <h4>4.2.4 Error Rate and Circuit State Evaluation</h4>
+            <figure style="max-width:300px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs30.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 4.8 Error State Evaluation</figcaption>
+            </figure>
+            <p>Recall that Aerobat is the central point of Tailslide’s Circuit Breaking capabilities. Aerobat connects directly to Redis and queries the cache for each live circuit within an application to evaluate current error rates against user-configured error thresholds, allowing Aerobat to assess the health of circuits and update circuit states accordingly. Aerobat determines whether a circuit should be tripped open by monitoring a circuit’s error rate through polling Redis at a developer-defined interval. This polling relationship ensures Aerobat is constantly evaluating the circuit based on current success and failure counts.</p>
+            <figure style="max-width:400px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/Asset-1102x.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 4.9 Error Rate Querying with Sliding Window</figcaption>
+            </figure>
+            <p>Aerobat calculates error rate percentage by querying the sum of success, and failure counts over a developer-defined window of time. Due to the data being stored in a timeseries structure, Tailslide can fetch sum values with a single query by providing Redis a window start and window end timestamp, representing the current time minus the window size and the current time itself. Querying over a window of time allows Aerobat to protect against sudden spikes or lulls in data and effectively creates a sliding window for evaluating error rates. Engineers can configure both the query window and polling rate to better fit their new feature’s needs based on the expected traffic and risk tolerance.</p>
+            <figure style="max-width:400px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/Asset-392x.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 4.0.1 Redis Query Example</figcaption>
+            </figure>
+            <p>Aerobat can efficiently query Redis for all active flag data within an application by making a multi-key query, leveraging Redis Timeseries metadata label tags.  All flag keys have an associated app ID that can be used to make this query, returning a summed count of successes and failures in the window range.</p>
+            <p>With each query, Aerobat calculates the error rate percentage and then makes a simple check for the error rate percentage surpassing the user-defined error threshold percentage.  If this check evaluates true, the circuit is tripped open.</p>
+            <h4>4.2.5 Circuit State Change Propagation</h4>
+            <figure style="max-width:350px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/Asset-902x.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 4.0.2 Circuit State Change Propagation</figcaption>
+            </figure>
+            <p>Aerobat is responsible not only for evaluating a circuit’s state change, but also for notifying Tower of the change. Tower can then persist this change of circuit state in PostgreSQL and propagate the update back out to all SDKs.</p>
+            <p>Aerobat publishes messages via a JetStream subject dedicated to circuit state changes. Tower is subscribed to this subject and is configured to immediately update a flag’s state to off if a circuit is tripped open, redirecting all traffic to the fall-back code, as well as updating internal circuit properties for display purposes. Tower will also store an event log related to any change in state, which can be viewed on the Tailslide dashboard.</p>
+            <p>Any change in feature flag ruleset data or configuration is immediately published by Tower to NATS JetStream, and propagated out to all connected SDK instances. This effectively completes the cycle of information within Tailslide - with Tower publishing flag states, Aerobat monitoring the health of connections created by these flags, and automatically shutting off flags according to circuit breaking configuration.</p>
+            <h3>4.3 Automated Recovery</h3>
+            <figure style="max-width:300px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/Asset-1142x.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 4.0.3 Circuit States</figcaption>
+            </figure>
+            <p>While Tailslide’s default behavior of tripping open a circuit protects against a failing feature, it still requires an engineer to respond to the failure to assess the issue and ensure the service is recovered before turning the flag back on and closing the circuit. This Time to Recovery can increase if an engineer is unavailable, especially during weekends or nights, leading to additional downtime for a feature and a degraded user experience. An increased burden on engineering staff also takes away valuable time that could be used on development instead of the maintenance and monitoring of deployed features.</p>
+            <p>Tailslide has developed a solution to lessen the support burden and decrease MTTR with an automated recovery system that follows the principles of a Circuit Breaker half-open state.  As defined by Michael Nygard:</p>
+            <blockquote>&quot;When the circuit is “open,” calls to the circuit breaker fail immediately, without any attempt to execute the real operation. After a suitable amount of time, the circuit breaker decides that the operation has a chance of succeeding, so it goes into the “half-open” state.&quot;</blockquote>
+            <figure style="max-width:375px" class="w-richtext-align-center w-richtext-figure-type-image">
+              <div><img src="images/cs16.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 4.0.4 Circuit Open State</figcaption>
+            </figure>
+            <p>In Tailslide, this “suitable amount of time” is a configurable Recovery Delay Time, during which the circuit will remain in an <strong>Open</strong> state and the flag state evaluates as false.</p>
+            <figure style="max-width:375px" class="w-richtext-align-center w-richtext-figure-type-image">
+              <div><img src="images/cs17.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 4.0.5 Circuit Recovery State</figcaption>
+            </figure>
+            <p>After the recovery delay has elapsed, the circuit enters a <strong>Recovery</strong> state, acting as a half-open circuit.  During this phase, a decreased amount of users are exposed to the new feature, as defined by the ‘Initial Recovery’ percentage.</p>
+            <p>This change of state is handled by Aerobat, which is aware of all recovery configurations via the feature flag ruleset data. Aerobat is responsible for tracking the recovery delay and, once the time has elapsed, updating the circuit’s state to in-recovery. With each state change, Aerobat publishes a new message back to Tower, which is propagated to all SDK instances to adjust the percentage of users exposed to the feature.</p>
+            <figure style="max-width:375px" class="w-richtext-align-center w-richtext-figure-type-image">
+              <div><img src="images/cs18.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 4.0.6 Circuit Health of a Recovering Circuit</figcaption>
+            </figure>
+            <p>While a circuit is in the <strong>Recovery</strong> state, it will gradually increase the number of users exposed to the feature.  This percentage is increased by a ‘Recovery Increment’ percentage which is incremented at a set interval defined by the ‘Recovery Rate.’ A user has granular control over each of these settings and can even define recovery shape by choosing either linear or exponential.</p>
+            <figure style="max-width:375px" class="w-richtext-align-center w-richtext-figure-type-image">
+              <div><img src="images/cs19.png" loading="lazy" alt=""></div>
+            </figure>
+            <p>During recovery, Aerobat continues to monitor a circuit’s error rate against the error threshold.  If at any point the threshold is surpassed, the circuit will return to an open state, and the recovery process will restart.  If the circuit health reaches 100% without tripping open, the circuit will be considered fully recovered, and will return to a closed state, exposing the feature to all users defined by the rollout percentage.</p>
+            <h4>4.3.1 Circuit Monitoring</h4>
+            <figure style="max-width:293.5px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/graph_dashboard2-copy.png" loading="lazy" alt=""></div>
+              <figcaption>Replacing w/ Looping mp4</figcaption>
+            </figure>
+            <p>Even with automated recovery enabled, developers should be aware of the health of circuits and any changes to their state. Repeatedly tripped circuits can point to a need for retuning error thresholds, or a larger issue within a user application or feature. Tailslide has implemented two means of monitoring circuits in real-time.</p>
+            <p>The first is the ‘Timeseries Data’ tab available for each flag on the Tailslide frontend. This page displays graph views of error rate along with error threshold, as well as a bar graph displaying success and failure counts. Various time windows are available for analysis, from the past 30 seconds to an hour, and by default, these graphs will poll the Redis cache to display real-time updates.</p>
+            <p>This graph visualization is paired with a ‘Circuit Info’ card that gives a live view of a circuit’s current state. By leveraging a websocket connection, the frontend React app receives live updates as a circuit opens, recovers and closes, along with the current Circuit Health percentage.</p>
+            <figure style="max-width:334.5px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/SlackMockup2.png" loading="lazy" alt=""></div>
+            </figure>
+            <p>Tailslide also allows developers to configure Slack channel alerts for any changes in a circuit’s state.  This configuration is as simple as inputting the webhook URL when creating or editing a flag. Tailslide will send a webhook request with details of the flag and its updated state anytime there is a change, giving developers peace of mind knowing they will be immediately alerted to any changes.</p>
+            <h2>5 Using Tailslide</h2>
+            <h3>5.1 Deploying Tailslide</h3>
+            <p>Tailslide is a self-hosted, open-source feature flag framework. Since Tailslide is not a managed solution, all data is stored on the user&#x27;s own infrastructure and is not shared with any external parties.</p>
+            <p>Tailslide provides a simple out-of-the-box deployment strategy, which will spin up all components of Tailslide on a single server within a Docker Network.</p>
+            <p>To deploy Tailslide with Docker, a user needs to first clone the docker branch from GitHub,  then ensure the appropriate configuration files are present, and pass in an SDK_KEY argument along with the docker-compose up command. SDK Keys can be generated from the frontend UI.</p>
+            <p>Depending on a user&#x27;s needs, Tailslide also offers individual components such as Aerobat and Tower, as separate repositories on Github. These can each be hosted on individual machines or with any hosting service. This provides the flexibility to scale and use different components as needed. Providing users with the ability to deploy individual components allows a user to add to their implementation of Tailslide, making it more robust.</p>
+            <figure class="w-richtext-align-center w-richtext-figure-type-image">
+              <div><img src="images/tailslide_terminal.svg" loading="lazy" alt=""></div>
+              <figcaption>Fig 5.1 Deploying Locally to a Docker Network</figcaption>
+            </figure>
+            <h2>6 Engineering Decisions and Tradeoffs</h2>
+            <h3>6.1 Service-to-Service Communication</h3>
+            <p>One of the key engineering decisions we had to make was around how we were going to reliably facilitate service-to-service communication. Based on our use case, our communication method needed to possess the following properties:</p>
+            <ol start="" role="list">
+              <li><strong>Publish-Subscribe Communication Pattern</strong></li>
+              <li><strong>Fault Tolerant via Guaranteed-at-Least-Once Delivery</strong></li>
+              <li><strong>Message Replay</strong></li>
+              <li><strong>Authentication</strong></li>
+              <li><strong>Lightweight and Easily Deployable</strong></li>
+            </ol>
+            <figure style="max-width:391px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs31.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 6.1 Publish-Subscribe Communication Pattern</figcaption>
+            </figure>
+            <p><strong>The publish-subscribe communication pattern</strong> is a form of asynchronous service-to-service communication, where any message published to a subject by a publisher is immediately received in real-time by all of the subscribers to the topic. This messaging pattern can be used to enable event-driven architectures, or to decouple applications to increase performance, reliability and scalability.</p>
+            <p>Tailslide needed to support this communication pattern in order to effectively transfer the same data to multiple subscribers in real-time.</p>
+            <p><strong>Guaranteed-at-Least-Once Deliver</strong>y [?] is a messaging guarantee that can be provided by certain message brokers that guarantees that for each message handled by the message broker, there may be more than one attempt made to deliver it, but at <strong>least one</strong> delivery will be successful. In a distributed systems environment, the network is inherently unreliable. Without this delivery guarantee, there is a risk that a message sent from the message broker may not be received and processed by the subscriber. Guaranteed-at-least-once delivery means that a message may be sent more than once - for this reason, we created Tailslide with idempotence built in. See <strong>Section 5.4.1</strong> on idempotence.</p>
+            <p>Tailslide needed Guaranteed-at-Least-Once Delivery to ensure that the most updated feature flag ruleset data is guaranteed to be transmitted to the user microservices at least once, adding fault tolerance to our architecture.</p>
+            <p><strong>Message Replay</strong> is a feature of some message brokers which allows them to resend messages to new or existing subscribers, regardless of when those messages were first received by the message broker.</p>
+            <p>Tailslide needed message replay, such that whenever a new user microservice comes online, they can immediately be pushed the last sent message, which is the latest flag ruleset.</p>
+            <p>Considering our various needs of a message broker, we considered a variety of different options, ranging from a custom-built solution to other message brokers.</p>
+            <figure style="max-width:550px" class="w-richtext-align-center w-richtext-figure-type-image">
+              <div><img src="images/cs32.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 6.2 Communication Options</figcaption>
+            </figure>
+            <figure style="max-width:100px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs33.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 6.3 <em>node.js</em></figcaption>
+            </figure>
+            <h4>6.1.1 Server-Sent Events</h4>
+            <p>One alternative we considered was to utilize the Tower server to directly send flag data to the user microservices and Aerobat via Server-Sent Events. This solution is easy to deploy, as Tower is already part of our existing infrastructure. A major setback of this solution is that it suffers from a lack of separation of concerns, as Tower would now need to service requests from endpoints, communicate with the database, and also be responsible for sending updated flag ruleset to every instance of the user microservice.</p>
+            <figure style="max-width:100px" class="w-richtext-align-floatleft w-richtext-figure-type-image">
+              <div><img src="images/cs34.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 6.4 <em>RabbitMQ</em></figcaption>
+            </figure>
+            <h4>6.1.2 RabbitMQ</h4>
+            <p>We also considered RabbitMQ, which is a lightweight open-source message broker. However, this solution did not offer Message Replay.</p>
+            <p>‍</p>
+            <figure style="max-width:100px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs35.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 6.5 <em>Kafka</em></figcaption>
+            </figure>
+            <h4>6.1.3 Kafka</h4>
+            <p>We also thought about using Kafka, which is an event stream-processing platform. Although it had all the capabilities we required, it is quite a complex and feature-rich tool and is intended to be used for very high-volume throughput event-driven architectures. Since we do not anticipate flag ruleset data being changed on a very frequent basis and we were looking for a more lightweight tool, we opted not to pursue the usage of Kafka.</p>
+            <figure style="max-width:100px" class="w-richtext-align-floatleft w-richtext-figure-type-image">
+              <div><img src="images/cs36.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 6.6 <em>NATS</em></figcaption>
+            </figure>
+            <h4>6.1.4 NATS JetStream</h4>
+            <p>Finally, we landed on NATS JetStream, which is a lightweight, open-source message streaming broker that met all of our requirements, including:</p>
+            <ul role="list">
+              <li>supporting pub-sub communication</li>
+              <li>guaranteeing-at-least-once delivery</li>
+              <li>providing message replay and authentication</li>
+              <li>and is a lightweight and easy-to-deploy message broker.</li>
+            </ul>
+            <h3>6.2 Circuit Breaking</h3>
+            <figure style="max-width:125px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs37.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 6.7 <em>Circuit Breaking</em></figcaption>
+            </figure>
+            <p>Another major engineering decision we had to make was around how we were going to architect our circuit-breaking functionality. This was broken into three main decision areas:</p>
+            <ul role="list">
+              <li>Emission of Data</li>
+              <li>Storage of Data</li>
+              <li>Evaluation and Communication of Data</li>
+            </ul>
+            <h4>6.2.1 Emitting data</h4>
+            <p>The emission of telemetry data is crucial for our circuit-breaking component. We would need to emit a signal if a flag circuit was operating as expected or failing. This emission is the data we would query to assess the health of a circuit for a particular flag.</p>
+            <p><strong>Alternatives</strong></p>
+            <ol start="" role="list">
+              <li><strong>Emitting Observability Telemetry Data -</strong> this consists of enriched data that includes things such as logs and metrics. However, emission and collection of this data could require additional infrastructure, such as a telemetry collector, which would be needed to receive, process, and export the data. Because we were looking for a lightweight and simple solution, we opted not to pursue this option, as it resulted in increased complexity.</li>
+              <li><strong>Emitting Based on User-Defined Success/Failure Events -</strong> another option we considered was to give users the ability to specify the conditions of a failure or a success directly in their code. Traditional circuit breakers, by contrast - are more rigid and are often implemented by wrapping HTTP Requests between synchronous service-to-service communication and pre-defining success/failure criteria based on HTTP response status code. We decided to pursue the user-defined event approach, as this approach provides the users with flexibility, allowing them to decide for themselves what their specific success/failure criteria would be and is also simple to use, and has reduced complexity.</li>
+            </ol>
+            <figure class="w-richtext-align-center w-richtext-figure-type-image">
+              <div><img src="images/cs38.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 6.8 <em>Code Snippet - emission methods usage, defined within Tailslide SDK</em></figcaption>
+            </figure>
+            <h4>6.2.2 Storing data</h4>
+            <p>Once emitted, we need to find an appropriate data store.</p>
+            <p><strong>Data Store Requirements</strong></p>
+            <ul role="list">
+              <li><strong>High-Volume Write Throughput -</strong> the data store would have to support a high-volume write throughput, because every connected SDK would be writing to the data store when it encountered the emission methods.</li>
+              <li><strong>Support Periodic Reads -</strong> the data store would need to support periodic reads, which occurs when Aerobats queries the data store to assess if a circuit has tripped.</li>
+              <li><strong>Ephemeral and Simple Data -</strong> the data being stored is ephemeral in nature and is very simple - it would just consist of an identifier for the flag, a timestamp that indicated when the write occurred, and if it was a failure or success event.</li>
+            </ul>
+            <p><strong>Alternatives</strong></p>
+            <figure style="max-width:100px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs39.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 6.9 NATS</figcaption>
+            </figure>
+            <ul role="list">
+              <li><strong>Publish Directly to Message Log - </strong>To leverage our existing infrastructure, we considered having the SDKs publish directly to a success or failure message log topic within NATS JetStream, and we would then query that message log periodically. Although feasible, consistent time-bucketed querying of persisted messages in a message broker is a more complex and involved process that was not natively supported by NATS Jetstream and would require custom code.</li>
+            </ul>
+            <figure style="max-width:100px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs40.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 6.0.1 InfluxDB</figcaption>
+            </figure>
+            <ol start="" role="list">
+              <li><strong>Timeseries Database</strong> - Due to the timeseries-like nature of our data, we considered using a feature-rich Timeseries Database such as InfluxDB. Suppose we had decided to pursue a full-fledged observability approach with rich telemetry data, the complexity of our data increases, and we could benefit from the additional features provided by a Timeseries Database. However, due to the simplicity of our data and our specific use case, we chose not to pursue this alternative.</li>
+            </ol>
+            <figure style="max-width:100px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs41.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 6.0.2 Redis</figcaption>
+            </figure>
+            <ol start="" role="list">
+              <li><strong>In-Memory Data Store</strong> - we decided on utilizing Redis Timeseries, which is an implementation of Redis that added a Timeseries data structure to Redis. Redis is an open-source, lightweight in-memory data store, which was simple to use, simple to deploy, and allowed for high volume throughput and performant read and write capabilities. Using Redis Timeseries allowed us to group the timeseries data into buckets for assessment by Aerobat and allowed us to set a TTL on that data, so that stale data could be cleared out periodically, which is an important feature due to the high volume of data that needs to be ingested. Time-bucketed data can then be sent to the front-end for graphing and visualization purposes. For these reasons, we decided to pursue the usage of Redis Timeseries as our data store.</li>
+            </ol>
+            <h4>6.2.3 Data Evaluation and Communication</h4>
+            <p>Once the success/failure telemetry data has been stored, it must be queried at a periodic interval to assess if a circuit for a flag has tripped. If a circuit has tripped, we then need to communicate this information back to Tower to update the database to reflect the correct flag state, such that the latest flag ruleset can then be published and fanned out to all subscribers. The key question here is - how should we communicate to Tower?</p>
+            <p><strong>Alternatives</strong></p>
+            <ul role="list">
+              <li><strong>Direct Communication via HTTP -</strong> One option would involve setting up an API endpoint on Tower and having Aerobat communicate directly with Tower using HTTP Requests sent over the network. Although this was a feasible approach, it would not be fault tolerant, and could be susceptible to dropped messages.</li>
+              <li><strong>Communication via Message Broker -</strong> another option involves having Aerobat publish to NATS JetStream directly and configuring Tower to subscribe to circuit-breaking subjects. This approach improves reliability by guaranteeing at-least-once message delivery. For improved reliability, we pursued this communication method.</li>
+            </ul>
+            <h3>6.3 Self-hosted vs. Hosted</h3>
+            <p>Another question we needed to answer was how Tailslide would be delivered. There were two options: hosted vs. self-hosted.</p>
+            <p><strong>Hosted Solution</strong> - In a hosted solution, we would host Tailslide on private cloud infrastructure and offer access to Tailslide as a service to users.</p>
+            <p><strong>Self-Hosted Solution</strong> - a self-hosted solution would require the user to host Tailslide on their own infrastructure.</p>
+            <p>We decided to provide Tailslide as a self-hosted application due to the following reasons:</p>
+            <figure style="max-width:425px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs42.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 6.0.3 Component Flexibility</figcaption>
+            </figure>
+            <ul role="list">
+              <li><strong>Open Source and Component Flexibility</strong> - by allowing user organizations to self-host Tailslide, different components of the architecture could be scaled up or scaled down as needed, based on load. For example - if a user organization was using the circuit-breaking functionality very intensely, an additional Redis Timeseries component could be added to the infrastructure, which would allow for increased read and write volume. In addition, since Tailslide is an open-source and self-hosted application, user organizations can easily modify Tailslide as needed to suit their own unique needs and requirements.</li>
+            </ul>
+            <ul role="list">
+              <li><strong>Infrastructure Deployment Flexibility</strong> - by allowing users to deploy Tailslide on whatever infrastructure they choose, it gives them the freedom to deploy on a variety of platforms - such as an AWS EC2 instance, a DigitalOcean Droplet, or even their own on-premise server.</li>
+            </ul>
+            <ul role="list">
+              <li><strong>Risk Management -</strong> by allowing users to self-host Tailslide, it reduces the security risks that a user organization may have with sending confidential flag data to a third-party organization. By offering a self-hosted solution, users retain sole control of their own flag data and do not need to rely on the security measures in place of an external organization.</li>
+            </ul>
+            <h3>6.4 Server-Side SDKs</h3>
+            <p>When flag data is changed, a question arises around which type of data should be distributed. The key question being:</p>
+            <ul role="list">
+              <li>Should we send only the single flag ruleset of the changed flag, or</li>
+              <li>Should we send the entire flag ruleset for an application?</li>
+            </ul>
+            <figure style="max-width:300px" class="w-richtext-align-center w-richtext-figure-type-image">
+              <div><img src="images/cs43.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 6.0.4 Single Flag Ruleset (Replacing w/ styled code example with single next to full flag ruleset)</figcaption>
+            </figure>
+            <p>Sending the entire flag ruleset is common for server-side SDKs, whereas sending the specific single modified flag ruleset data is more commonly seen in client-side SDKs. [?]</p>
+            <figure style="max-width:400px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs45.png" loading="lazy" alt=""></div>
+            </figure>
+            <p>This is because, with client-side SDKs, these SDKs are often embedded in applications that are distributed to users, such as a React or a mobile application. These client-facing applications are considered to be inherently unsafe, as your users can then intercept and inspect the network traffic to see what feature flags you have created and view what your current targeting rules are.</p>
+            <p>To reduce the risk of unauthorized access to a user’s flag data, client-side SDKs often require a key, which only provides the client with access to flag data for the flag that matches that particular key.</p>
+            <p>Contrast this with server-side SDKs - these SDKs are intended to be used in applications that run on the backend, such as in web servers or backend servers. Therefore, these environments are considered to be safer environments, where the risk of network traffic interception and inspection is greatly decreased.</p>
+            <ul role="list">
+              <li><strong>Server-Side SDKs</strong> - Because Tailslide was built to improve the deployment process for testing new backend functionality, it is intended only to be used in the backend, which is considered to be a safer environment. Therefore, the transmission of the entire flag ruleset data for an app is deemed to be appropriate and in-line with industry practice around how server-side SDKs are often implemented. For additional security - applications still need to provide an SDK Key for authentication before being granted access to the flag ruleset data.</li>
+              <li><strong>Simplicity -</strong> In addition, this approach is simpler to implement as every time a flag is modified, the entire flag ruleset for an application is fetched.</li>
+              <li><strong>Anticipated Flag Ruleset Data -</strong> lastly, we would anticipate that the flag ruleset data is not extremely large, given our target user. Therefore, the transmission of the entire flag ruleset data for an app every time a flag is modified would likely not result in a significantly long transfer period relative to the single-flag ruleset data.</li>
+            </ul>
+            <h4>6.4.1 Idempotence</h4>
+            <figure style="max-width:125px" class="w-richtext-align-floatright w-richtext-figure-type-image">
+              <div><img src="images/cs46.png" loading="lazy" alt=""></div>
+              <figcaption>Fig 6.0.7 Idempotence</figcaption>
+            </figure>
+            <p><strong>What is an Idempotent Operation?</strong> An <em>idempotent</em> <em>operation</em> is one where a request can be retransmitted or retried with no additional side effects, a property that is very beneficial in distributed systems. [?].</p>
+            <p><strong>At-Least-Once Delivery and Idempotence -</strong> One of the guarantees provided by NATS JetStream is at least once delivery. Therefore, there is a potential that an identical feature flag ruleset data could be sent twice by the message broker. Because the entire flag ruleset data is sent every time, even if the identical flag ruleset is transmitted more than once - the user microservice with our SDK embedded within it would respond in exactly the same way, evaluating the logic within the backend application as appropriate.</p>
+            <h2>7. Future Work</h2>
+            <p>Future Work we are considering includes:</p>
+            <ul role="list">
+              <li><strong>User Authentication to Front-End UI</strong> - having users authenticate before being granted access to the Front-End UI. This would allow for the ability to see the change history, such as who toggled a flag on/off or who edited the circuit breaking options for an existing flag.</li>
+              <li><strong>Additional SDKs (C#, Java)</strong> - we are looking toward adding SDKs in additional languages to support our users. Currently, the client library SDKs we support include Python, Golang, JavaScript, and Ruby. In the future, we would like to add additional popular back-end languages such as C# and Java.</li>
+              <li><strong>Circuit Breaking using Additional Criteria</strong> - we are also looking to add the ability for users to circuit break based on other trigger criteria, such as user-defined HTTP response codes and user-configured response times thresholds, specifically when the circuit breaker is used for synchronous service-to-service communication.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="presentation" class="presentation wf-section">
+    <h2 class="presentaition-header">Presentation</h2>
+    <div class="video-div">
+      <div style="padding-top:56.17021276595745%" class="w-embed-youtubevideo"><iframe src="https://www.youtube.com/embed/AtXwLoxg5XI?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0" frameborder="0" style="position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:auto" allow="autoplay; encrypted-media" allowfullscreen="" title="Tailslide"></iframe></div>
+    </div>
+  </section>
+  <section id="team" class="team wf-section">
+    <h2 id="team-header" class="centered-heading">The Team</h2>
+    <p class="centered-subheading">Tailslide is developed by a remote team of engineers. We are currently looking for opportunities. If you liked what you saw and want to talk more, please reach out below!</p>
+    <div class="team-grid">
+      <div id="w-node-ec9689dd-5a27-6d60-1966-d0f9d09d6cd5-537ddaa4" class="team-card"><img src="images/Trent-Image.jpg" loading="lazy" srcset="images/Trent-Image-p-500.jpg 500w, images/Trent-Image-p-800.jpg 800w, images/Trent-Image-p-1080.jpg 1080w, images/Trent-Image-p-1600.jpg 1600w, images/Trent-Image-p-2000.jpg 2000w, images/Trent-Image-p-2600.jpg 2600w, images/Trent-Image.jpg 2686w" sizes="(max-width: 479px) 38vw, (max-width: 767px) 31vw, (max-width: 991px) 18vw, (max-width: 1439px) 19vw, 225.00001525878906px" alt="" class="team-member-image">
+        <div class="team-member-name">Trent Cooper</div>
+        <div class="team-member-position">Chicago, IL</div>
+        <div class="icon-div"><img src="images/web_icon2.svg" loading="lazy" alt="" class="team-icon"><img src="images/mail_icon2.svg" loading="lazy" alt="" class="team-icon"><img src="images/linkedin_icon2.svg" loading="lazy" alt="" class="team-icon"></div>
+      </div>
+      <div id="w-node-ec9689dd-5a27-6d60-1966-d0f9d09d6cdf-537ddaa4" class="team-card"><img src="images/JE.jpg" loading="lazy" srcset="images/JE-p-500.jpg 500w, images/JE-p-800.jpg 800w, images/JE-p-1080.jpg 1080w, images/JE.jpg 1118w" sizes="(max-width: 479px) 21vw, (max-width: 767px) 31vw, (max-width: 991px) 18vw, (max-width: 1439px) 19vw, 225.00001525878906px" alt="" class="team-member-image">
+        <div class="team-member-name">Jordan Eggers</div>
+        <div class="team-member-position">NYC, NY</div>
+        <div class="icon-div"><img src="images/web_icon2.svg" loading="lazy" alt="" class="team-icon"><img src="images/mail_icon2.svg" loading="lazy" alt="" class="team-icon"><img src="images/linkedin_icon2.svg" loading="lazy" alt="" class="team-icon"></div>
+      </div>
+      <div id="w-node-ec9689dd-5a27-6d60-1966-d0f9d09d6ce9-537ddaa4" class="team-card"><img src="images/Steven-Image.JPG" loading="lazy" width="200" height="200" sizes="(max-width: 479px) 38vw, (max-width: 767px) 31vw, (max-width: 991px) 18vw, (max-width: 1439px) 19vw, 225.00001525878906px" srcset="images/Steven-Image-p-500.jpg 500w, images/Steven-Image-p-800.jpg 800w, images/Steven-Image-p-1080.jpg 1080w, images/Steven-Image-p-1600.jpg 1600w, images/Steven-Image-p-2000.jpg 2000w, images/Steven-Image.JPG 2316w" alt="" class="team-member-image">
+        <div class="team-member-name">Steven Liou</div>
+        <div class="team-member-position">Boston, MA</div>
+        <div class="icon-div"><img src="images/web_icon2.svg" loading="lazy" alt="" class="team-icon"><img src="images/mail_icon2.svg" loading="lazy" alt="" class="team-icon"><img src="images/linkedin_icon2.svg" loading="lazy" alt="" class="team-icon"></div>
+      </div>
+      <div id="w-node-ec9689dd-5a27-6d60-1966-d0f9d09d6cf3-537ddaa4" class="team-card"><img src="images/Elaine-Image.jpeg" loading="lazy" srcset="images/Elaine-Image-p-500.jpeg 500w, images/Elaine-Image-p-800.jpeg 800w, images/Elaine-Image-p-1080.jpeg 1080w, images/Elaine-Image-p-1600.jpeg 1600w, images/Elaine-Image-p-2000.jpeg 2000w, images/Elaine-Image.jpeg 2048w" sizes="(max-width: 479px) 21vw, (max-width: 767px) 31vw, (max-width: 991px) 18vw, (max-width: 1439px) 19vw, 225.00001525878906px" alt="" class="team-member-image">
+        <div class="team-member-name">Elaine Vuong</div>
+        <div class="team-member-position">Toronto, ON</div>
+        <div class="icon-div"><img src="images/web_icon2.svg" loading="lazy" alt="" class="team-icon"><img src="images/mail_icon2.svg" loading="lazy" alt="" class="team-icon"><img src="images/linkedin_icon2.svg" loading="lazy" alt="" class="team-icon"></div>
+      </div>
+    </div>
+  </section>
+  <div class="w-embed w-script">
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/plugins/autoloader/prism-autoloader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <!-- This is for the Table of Contents -->
+    <script>
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    const id = entry.target.getAttribute("id");
+    if (entry.isIntersecting) {
+      document.querySelectorAll(".active").forEach((z) => {
+        z.classList.remove("active")
+      });
+      document.querySelector(`a[href="#${id}"]`).classList.add("active");
+    }
+  });
+}, { rootMargin: '0px 0px -75% 0px' });
+</script>
+    <script>
+document.getElementById("content").querySelectorAll("h2,h3").forEach(function(heading, i) { // runs a function for all headings inside your rich text element
+  observer.observe(heading);
+  let str = heading.innerHTML; // adds section titles to slugs
+  str = str.replace(/\s+/g, '-').replace(/[°&\/\\#,+()$~%.'":;*?<>{}]/g, "").toLowerCase(); // replaces spaces with hyphens, removes special characters and extra spaces from the headings, and applies lowercase in slugs
+  heading.setAttribute("id", str); // gives each heading a unique id
+  const item = document.createElement("a"); // creates an anchor element called "item" for each heading
+  item.innerHTML = heading.innerHTML; // gives each item the text of the corresponding heading
+  ("h2,h3").split(",").forEach(function(x) { // runs a function for each item in your headings list
+    if (heading.tagName.toLowerCase()==x) {
+      item.classList.add("tocitem", "toc-" + x); // gives each item the correct class
+    }
+  });
+  item.setAttribute("href", "#" + str); // gives each item the correct anchor link
+  document.querySelector("#toc").appendChild(item); // places each item inside the Table of Contents div
+});
+</script>
+    <!-- SDK Code Swapping -->
+    <script>
+const jsButton = document.getElementById("sdk-js")
+const rubyButton = document.getElementById("sdk-ruby")
+const pythonButton = document.getElementById("sdk-python")
+const goButton = document.getElementById("sdk-go")
+const codeBlock = document.getElementById("sdk-code")
+const sdkHeader = document.getElementById('sdk-header')
+const handleClick = (lang) => {
+  replaceCode(lang)
+  replaceHeader(lang)
+  Prism.highlightElement(codeBlock)
+}
+const replaceHeader = (lang) => {
+  switch (lang) {
+    case 'js':
+      sdkHeader.textContent = 'tailslideSDK.js'
+      break;
+    case 'ruby':
+      sdkHeader.textContent = 'tailslideSDK.rb'
+      break;
+    case 'python':
+      sdkHeader.textContent = 'tailslideSDK.py'
+      break;
+    case 'go':
+      sdkHeader.textContent = 'tailslideSDK.go'
+      break;
+  }
+}
+const replaceCode = (lang) => {
+  switch (lang) {
+    case 'js':
+      codeBlock.innerHTML = `const FlagManager = require('tailslide');
+const config = {
+  natsServer: 'nats://localhost:4222',
+  natsStream: 'flags_ruleset',
+  appId: 1,
+  userContext: '375d39e6-9c3f-4f58-80bd-e5960b710295',
+  sdkKey: 'myToken',
+  redisHost: 'http://localhost',
+  redisPort: 6379,
+};
+const manager = new FlagManager(config);
+await manager.initialize();`
+      codeBlock.className = 'language-js'
+      break;
+    case 'ruby':
+      codeBlock.innerHTML = `require "async"
+require('tailslide')
+config = {
+    nats_server: "nats://localhost:4222",
+    nats_stream: "flags_ruleset",
+    app_id: 1,
+    user_context: "375d39e6-9c3f-4f58-80bd-e5960b710295",
+    sdk_key: "myToken",
+    redis_host: "http://localhost",
+    redis_port: 6379,
+}
+Async do |task|
+    manager = FlagManager.new(**config)
+    manager.initialize_flags
+end`
+      codeBlock.className = 'language-ruby'
+      break;
+    case 'python':
+      codeBlock.innerHTML = `import asyncio
+from tailslide import FlagManager
+config = {
+    "nats_server": "nats://localhost:4222",
+    "nats_stream": "flags_ruleset",
+    "app_id": 1,
+    "user_context": "375d39e6-9c3f-4f58-80bd-e5960b710295",
+    "sdk_key": "myToken",
+    "redis_host": "http://localhost",
+    "redis_port": 6379,
+}
+async def main():
+    manager = FlagManager(**config)
+    await manager.initialize()
+asyncio.run(main())`
+      codeBlock.className = 'language-py'
+      break;
+    case 'go':
+      codeBlock.innerHTML = `import (
+	tailslide "github.com/tailslide-io/tailslide.go"
+)
+func main(){
+  config := tailslide.FlagManagerConfig{
+    NatsServer:  "nats://localhost:4222",
+    NatsStream:  "flags_ruleset",
+    AppId:       "1",
+    UserContext: "375d39e6-9c3f-4f58-80bd-e5960b710295",
+    SdkKey:      "myToken",
+    RedisHost:   "http://localhost",
+    RedisPort:   "6379",
+  }
+  manager := tailslide.NewFlagManager(config)
+  manager.InitializeFlags()
+}`
+      codeBlock.className = 'language-go'
+      break;
+  }
+}
+jsButton.addEventListener('click', e => handleClick('js'));
+rubyButton.addEventListener('click', e => handleClick('ruby'));
+pythonButton.addEventListener('click', e => handleClick('python'));
+goButton.addEventListener('click', e => handleClick('go'));
+</script>
+    <script src="https://min30327.github.io/luxy.js/dist/js/luxy.js"></script>
+    <script charset="utf-8">
+ var isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent);
+ if (!isMobile) {
+      luxy.init({
+        wrapper: '#luxy',
+        wrapperSpeed: 0.065,
+    });
+ }
+ </script>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=62f68e72843db6420ca4bfdf" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>
