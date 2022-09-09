@@ -72,6 +72,7 @@ const replaceCode = (lang) => {
   switch (lang) {
     case "js":
       codeBlock.innerHTML = `const FlagManager = require('tailslide');
+
 const config = {
   natsServer: 'nats://localhost:4222',
   natsStream: 'flags_ruleset',
@@ -81,6 +82,7 @@ const config = {
   redisHost: 'http://localhost',
   redisPort: 6379,
 };
+
 const manager = new FlagManager(config);
 await manager.initialize();`;
       codeBlock.className = "language-js";
@@ -88,24 +90,28 @@ await manager.initialize();`;
     case "ruby":
       codeBlock.innerHTML = `require "async"
 require('tailslide')
+
 config = {
-nats_server: "nats://localhost:4222",
-nats_stream: "flags_ruleset",
-app_id: 1,
-user_context: "375d39e6-9c3f-4f58-80bd-e5960b710295",
-sdk_key: "myToken",
-redis_host: "http://localhost",
-redis_port: 6379,
+    nats_server: "nats://localhost:4222",
+    nats_stream: "flags_ruleset",
+    app_id: 1,
+    user_context: "375d39e6-9c3f-4f58-80bd-e5960b710295",
+    sdk_key: "myToken",
+    redis_host: "http://localhost",
+    redis_port: 6379,
 }
+
 Async do |task|
-manager = FlagManager.new(**config)
-manager.initialize_flags
+    manager = FlagManager.new(**config)
+    manager.initialize_flags
+
 end`;
       codeBlock.className = "language-ruby";
       break;
     case "python":
       codeBlock.innerHTML = `import asyncio
 from tailslide import FlagManager
+
 config = {
     "nats_server": "nats://localhost:4222",
     "nats_stream": "flags_ruleset",
@@ -115,9 +121,11 @@ config = {
     "redis_host": "http://localhost",
     "redis_port": 6379,
 }
+
 async def main():
     manager = FlagManager(**config)
     await manager.initialize()
+
 asyncio.run(main())`;
       codeBlock.className = "language-py";
       break;
@@ -125,6 +133,7 @@ asyncio.run(main())`;
       codeBlock.innerHTML = `import (
   tailslide "github.com/tailslide-io/tailslide.go"
 )
+
 func main(){
   config := tailslide.FlagManagerConfig{
     NatsServer:  "nats://localhost:4222",
@@ -135,6 +144,7 @@ func main(){
     RedisHost:   "http://localhost",
     RedisPort:   "6379",
   }
+
   manager := tailslide.NewFlagManager(config)
   manager.InitializeFlags()
 }`;

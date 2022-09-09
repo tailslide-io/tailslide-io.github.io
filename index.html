@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--  Last Published: Tue Aug 30 2022 16:35:26 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Sep 08 2022 21:27:35 GMT+0000 (Coordinated Universal Time)  -->
 <html
   data-wf-page="630554c6691ab923537ddaa4"
   data-wf-site="62f68e72843db6420ca4bfdf"
@@ -11,6 +11,11 @@
     <link href="css/normalize.css" rel="stylesheet" type="text/css" />
     <link href="css/webflow.css" rel="stylesheet" type="text/css" />
     <link href="css/tailslide.css" rel="stylesheet" type="text/css" />
+    <link href="css/syntax.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/plugins/line-numbers/prism-line-numbers.min.css"
+    />
     <script
       src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
       type="text/javascript"
@@ -37,14 +42,6 @@
     </script>
     <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon" />
     <link href="images/256_logo.jpg" rel="apple-touch-icon" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/trent-cooper/cdn-css-expose@832357f8eb38cb00d95cce715e948241fec84030/tailslide-theme.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/plugins/line-numbers/prism-line-numbers.min.css"
-    />
   </head>
   <body data-scroll-time="0">
     <div
@@ -148,7 +145,7 @@
     >
       <div class="card-wrapper">
         <div class="card-text-div">
-          <h2 class="card-header-orange">Feature Flag Management</h2>
+          <h2 class="card-header-light">Feature Flag Management</h2>
           <p class="card-p-light">
             A feature flag system purpose-built for new feature deployment with
             granular control over rollout and developer whitelists.
@@ -188,7 +185,7 @@
           />
         </div>
         <div class="card-text-div">
-          <h2 class="card-header-orange">Automated Failure Protection</h2>
+          <h2 class="card-header-dark">Automated Failure Protection</h2>
           <p class="card-p-dark">
             Give developers peace of mind and reduce MTTR with a built-in
             Circuit Breaker and fully automated recovery.
@@ -199,8 +196,8 @@
     <div data-w-id="42dbcbdb-a4e8-853f-b58e-3918f86cdebd" class="sdk-card">
       <div class="card-wrapper">
         <div class="card-text-div">
-          <h2 class="card-header-white">Easy Integration</h2>
-          <p class="card-p-dark">
+          <h2 class="card-header-light">Easy Integration</h2>
+          <p class="card-p-light">
             SDK available in popular back-end languages for simple configuration
             within your app. Flag Evaluation and Circuit Observation are a
              method call away.
@@ -269,17 +266,28 @@ await manager.initialize();
     >
       <div class="card-wrapper">
         <div class="card-image-div">
-          <img
+          <video
+            autoplay
+            loop
+            muted
+            playsinline
+            width="550px"
+            class="deploy-img"
+          >
+            <source src="images/tailslide_terminal_loop.mp4" type="video/mp4" />
+            Your browser does not support the HTML5 Video element.
+          </video>
+          <!-- <img
             src="images/tailslide_terminal-copy-3.svg"
             loading="lazy"
             alt="Dock Deploy Example"
             width="550"
             class="deploy-img"
-          />
+          /> -->
         </div>
         <div class="card-text-div">
-          <h2 class="card-header-orange">Simple Deployment</h2>
-          <p class="card-p-light">
+          <h2 class="card-header-dark">Simple Deployment</h2>
+          <p class="card-p-dark">
             Deploy Tailslide on any cloud provider or your own infrastructure
             with a simple docker-compose command.
           </p>
@@ -344,6 +352,7 @@ await manager.initialize();
                 ramp down or shut off all traffic to a specified feature.
               </p>
               <figure
+                style="max-width: 450px"
                 class="w-richtext-align-center w-richtext-figure-type-image"
               >
                 <div>
@@ -909,13 +918,9 @@ await manager.initialize();
                 user-configured thresholds, and the circuit state change
                 propagation.
               </p>
-              <p>
-                Broadly, there are four key pieces of Tailslide’s architecture.
-                These include:
-              </p>
               <figure
                 style="max-width: 450px"
-                class="w-richtext-align-floatleft w-richtext-figure-type-image"
+                class="w-richtext-align-center w-richtext-figure-type-image"
               >
                 <div>
                   <img
@@ -928,6 +933,10 @@ await manager.initialize();
                   Fig 3.2 Services involves in Circuit Breaking.
                 </figcaption>
               </figure>
+              <p>
+                Broadly, there are four key pieces of Tailslide’s architecture.
+                These include:
+              </p>
               <ol role="list">
                 <li>
                   <strong>Tower</strong> - A full-stack application that handles
@@ -1006,7 +1015,7 @@ await manager.initialize();
                 >.
               </p>
               <figure
-                style="max-width: 519.5px"
+                style="max-width: 520px"
                 class="w-richtext-align-center w-richtext-figure-type-image"
               >
                 <div>
@@ -1822,11 +1831,6 @@ await manager.initialize();
                     />
                     Your browser does not support the HTML5 Video element.
                   </video>
-                  <!-- <img
-                    src="images/graph_dashboard2-copy.png"
-                    loading="lazy"
-                    alt=""
-                  /> -->
                 </div>
                 <figcaption>Fig 4.16 Dashboard Circuit Health view</figcaption>
               </figure>
@@ -1915,14 +1919,28 @@ await manager.initialize();
                 making it more robust.
               </p>
               <figure
+                style="max-width: 520px"
                 class="w-richtext-align-center w-richtext-figure-type-image"
               >
                 <div>
-                  <img
+                  <video
+                    autoplay
+                    loop
+                    muted
+                    playsinline
+                    style="max-width: 500px; border-radius: 8px"
+                  >
+                    <source
+                      src="images/tailslide_terminal_loop.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the HTML5 Video element.
+                  </video>
+                  <!-- <img
                     src="images/tailslide_terminal.svg"
                     loading="lazy"
                     alt="Docker Deploy Example"
-                  />
+                  /> -->
                 </div>
                 <figcaption>
                   Fig 4.18 Deploying Locally to a Docker Network
@@ -2492,7 +2510,7 @@ await manager.initialize();
       </div>
     </section>
     <section id="team" class="team-card wf-section">
-      <h2 id="team-header" class="centered-heading">The Team</h2>
+      <h2 id="team-header" class="centered-heading-2">The Team</h2>
       <p class="centered-subheading">
         Tailslide is developed by a remote team of engineers. We are currently
         looking for opportunities. If you liked what you saw and want to talk
@@ -2516,7 +2534,7 @@ await manager.initialize();
               images/Trent-Image.webp       2686w
             "
             alt="Trent Photo"
-            sizes="(max-width: 479px) 61vw, (max-width: 767px) 150px, (max-width: 991px) 18vw, (max-width: 1439px) 19vw, 225px"
+            sizes="(max-width: 479px) 110px, (max-width: 767px) 140px, (max-width: 991px) 18vw, 175px"
             class="team-member-image"
           />
           <div class="team-member-name">Trent Cooper</div>
@@ -2568,7 +2586,7 @@ await manager.initialize();
               images/JE.webp       1118w
             "
             alt="Jordan Photo"
-            sizes="(max-width: 479px) 38vw, (max-width: 767px) 150px, (max-width: 991px) 18vw, (max-width: 1439px) 19vw, 225px"
+            sizes="(max-width: 479px) 110px, (max-width: 767px) 140px, (max-width: 991px) 18vw, 175px"
             class="team-member-image"
           />
           <div class="team-member-name">Jordan Eggers</div>
@@ -2613,10 +2631,9 @@ await manager.initialize();
           <img
             src="images/Steven-Image.webp"
             loading="lazy"
-            width="200"
-            height="200"
-            sizes="(max-width: 479px) 61vw, (max-width: 767px) 150px, (max-width: 991px) 18vw, (max-width: 1439px) 19vw, 225px"
             alt="Steven Photo"
+            height="0"
+            sizes="(max-width: 479px) 110px, (max-width: 767px) 140px, (max-width: 991px) 18vw, 175px"
             srcset="
               images/Steven-Image-p-500.jpg   500w,
               images/Steven-Image-p-800.jpg   800w,
@@ -2676,7 +2693,7 @@ await manager.initialize();
               images/Elaine-Image.webp 1415w
             "
             alt="Elaine Photo"
-            sizes="(max-width: 479px) 38vw, (max-width: 767px) 150px, (max-width: 991px) 18vw, (max-width: 1439px) 19vw, 225px"
+            sizes="(max-width: 479px) 110px, (max-width: 767px) 140px, (max-width: 991px) 18vw, 175px"
             class="team-member-image"
           />
           <div class="team-member-name">Elaine Vuong</div>
